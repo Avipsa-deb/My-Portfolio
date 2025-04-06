@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avipsa Deb's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Avipsa Deb</h1>
+            <p> first-year B.Tech student specializing in AIML, passionate about technology and creativity!</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#experience">Experience</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a creative and innovative individual with a passion for Artificial Intelligence and Machine Learning. I enjoy public speaking, networking, and exploring the intersection of technology and art. As a member of the Cognito Club at Jain University, I actively participate in ideathons and hackathons to enhance my skills and contribute to innovative projects.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills & Interests</h2>
+            <div class="skills-group">
+                <h3>Technical Skills</h3>
+                <div class="skills-box">
+                    <div class="skill-item">Python</div>
+                    <div class="skill-item">SQL</div>
+                    <div class="skill-item">Machine Learning</div>
+                    <div class="skill-item">Data Analysis</div>
+                </div>
+            </div>
+            <div class="skills-group">
+                <h3>Design Skills</h3>
+                <div class="skills-box">
+                    <div class="skill-item">Canva</div>
+                    <div class="skill-item">Figma</div>
+                    <div class="skill-item">Basic Front End Development</div>
+                </div>
+            </div>
+            <div class="skills-group">
+                <h3>Other Interests</h3>
+                <div class="skills-box">
+                    <div class="skill-item">Public Speaking</div>
+                    <div class="skill-item">Networking</div>
+                    <div class="skill-item">Marketing</div>
+                    <div class="skill-item">Art</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>B.Tech in Artificial Intelligence and Machine Learning</strong><br>
+            Jain University, Bangalore<br>
+            <em>2024 - Present</em></p>
+            <p>Currently pursuing a Bachelor of Technology degree with a focus on Artificial Intelligence and Machine Learning. Engaged in various projects and coursework that enhance my understanding of AI algorithms, data analysis, and machine learning techniques.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <p><strong>Member, Cognito Club</strong><br>
+            Jain University, Bangalore<br>
+            <em>2024 - Present</em></p>
+            <p>As a member of the Cognito Club, I participate in ideathons and hackathons, collaborating with peers to develop innovative solutions using AI and ML technologies. I have contributed to team projects that focus on real-world applications of machine learning, enhancing my problem-solving and teamwork skills.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contact-info">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:avipsadeb.15@gmail.com">avipsadeb.15@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/avipsa-deb-02124b259/" target="_blank">Avipsa Deb</a></p>
+            <p>LeetCode: <a href="https://leetcode.com/avipsa_1" target="_blank">Avipsa</a></p>
+            <p>Instagram: <a href="https://www.instagram.com/a__v_i._/#" target="_blank ">Avipsa Deb</a></p>
+        </div>
+        <button id="changeColorBtn">Change Background Color</button>
+    </footer>
+
+    <script>
+        document.getElementById('changeColorBtn').addEventListener('click', function() {
+            document.body.style.backgroundColor = '#' + Math.floor(Math.random()*16777215).toString(16);
+        });
+    </script>
+</body>
+</html>
