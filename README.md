@@ -4,9 +4,13 @@ Hi! I'm Avipsa Deb, a first-year B.Tech student specializing in Artificial Intel
 
 ✨ Features
 Responsive and clean design
+
 Sections for About, Skills, Education, and Experience
+
 Contact info with social and coding profiles
+
 Fun interactive button to change background color
+
 Styled using custom CSS with hover animations
 
 
