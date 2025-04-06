@@ -16,8 +16,11 @@ Styled using custom CSS with hover animations
 
 🛠️ Tech Stack
 HTML5
+
 CSS3
+
 Google Fonts (Roboto)
+
 Vanilla JavaScript (for color change interaction)
 
 📂 Project Structure
@@ -25,8 +28,11 @@ bash
 Copy
 Edit
 .
+
 ├── index.html        # Main HTML file
+
 ├── styles.css        # Custom CSS styling
+
 └── README.md         # You're reading it!
 
 
